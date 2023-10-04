@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gabarito', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+header{  
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;  
+}
+nav{
+    margin-right: 10%;
+    position: fixed;
+    right: 0;
+}
+nav a{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.home{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 9px;
+}
+.about:hover{
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 9px;
+}
+.projects:hover{
+    margin: 1px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 9px;
+}
+.contact:hover{
+    margin: 1px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 9px;
+}
+#contact{    
+    width: 80%; 
+}
+.cont{  
+    text-align: center;
+}
+.skills:hover{
+    margin: 1px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 9px;
+}
+section{   
+    color: white;
+    min-height: 100vh;
+    display: flex;
+}
+section h2{   
+    font-size: 60px;
+}
+.subtext{   
+    font-size: 20px;
+    width: 50%;
+    margin-top: 15px;
+    color: white;
+}
+#about{   
+    display: flex;
+    flex-direction: column;  
+    margin-left: 10%;
+    margin-top: 26.5%;
+    padding-top: 15%;
+}
+.stb{
+    font-size: 25px;
+}
+#skills{
+    flex-direction: column;
+    padding-top: 15%;
+    margin-left: 10%;
+}
+.s{ 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: -30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: -0%;
+    margin-bottom: 1%;
+    width: 50%;
+    background: white;
+    color: black;
+}
+#sid{
+    width: 30%;
+}
+#st{
+    width: 40%;
+}
+#sr{
+    width: 15%;
+}
+.learnig{   
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+#projects{
+    padding-top: 5%;   
+    flex-direction: column;   
+    margin-left: 10%;
+}
+#contact{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    margin-left: 10%;
+}
+.homep{
+    display: inline;
+}
+.textpr{
+    margin-top: 1%;
+    width: 50%;
+    font-size: 25px;
+}
+video{
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.text1{
+    padding-top: 5%;
+    color: white;
+    margin-left: 10%;
+    font-size: 70px;
+    
+}
+.text2{  
+    padding-top: 1%;
+    color: white;
+    margin-left: 10%;
+    font-size: 20px
+}
+.cbtn{
+    padding-top: 3%;
+}
+.btn{
+    padding-top: 1%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+}
+.conteiner{
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2.5%;
+    width: 600px;
+    height: 400px;
+}
+.box1 img{
+    border-radius: 10px;
+    backdrop-filter: blur(10px);   
+}
+.box2 img{
+    backdrop-filter: blur(10px);
+    border-radius: 10px; 
+}
+#insta{
+    align-items: center;
+    justify-content: center;
+    margin-left: 48%;
+    margin-top: 2% ;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+
