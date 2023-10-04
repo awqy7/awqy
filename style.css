@@ -182,13 +182,14 @@ video{
     background-color: white;
 }
 .conteiner{
+    
     backdrop-filter: blur(10px);
     border-radius: 20px;
     grid-gap: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2.5%;
-    width: 600px;
+    width: 200px;
     height: 400px;
 }
 .box1 img{
@@ -211,6 +212,185 @@ video{
     opacity: 0.7;
 }
 
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+   
+    .video11{
+     display: none;
+    }
+    nav{
+        display: none;
+    }
+    .logo{
+        margin-left: 40%;
+    }
+    .text2{
+        margin-top: 5%;
+    }
+    .cbtn{
+        margin-top: 10%;
+
+    }
+    .subtext{
+        width: 400px;
+    }
+
+    section{
+        min-height: 50vh;
+    }
+
+    .textpr{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 400px;
+    }
+    .sr{
+        width: 25%;
+    }
+    
+    .conteiner{
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    
+
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+       .video11{
+            display: none;
+       }
+       nav{
+           display: none;
+       }
+       .logo{
+           margin-left: 40%;
+       }
+       .text1{
+        margin-top: -5%;
+        margin-left: 0;
+        text-align: center;
+       }
+       .text2{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 2%;
+       }
+       .btn{
+             
+
+       }
+       .cbtn{
+       
+        margin-top: 5%;
+        margin-left: 37%;
+        
+   
+       }
+       .subtext{
+        width: 400px;
+       }
+   
+       section{
+        min-height: 50vh;
+       }
+   
+       .textpr{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 400px;
+       }
+       .sr{
+        width: 25%;
+       }
+       .conteiner{
+        margin-left: %;
+        display: grid;
+       }
+       
+
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+.video11{
+    display: flex 
+
+}
+.logo{
+    margin-left: -1%
+}
+nav{
+    display: block;
+}
+.text1{
+    margin-top: 0%;
+    margin-left: 10%;
+    text-align: start;
+   }
+   .text2{
+    margin-left: 10%;
+    text-align: start;
+    margin-top: 0%;
+   }
+   .btn{
+         
+
+   }
+   .cbtn{
+   
+    margin-top: 0%;
+    margin-left: 0%;
+    
+
+   }
+   .subtext{
+    width: 400px;
+   }
+
+   section{
+    min-height: 50vh;
+   }
+
+   .textpr{
+    margin-bottom: 0%;
+    margin-top: 1%;
+    width: 400px;
+   }
+   .sr{
+    width: 25%;
+   }
+   .conteiner{
+    margin-left: %;
+    display: grid;
+   }
+   #skills{
+    margin-bottom: 10%;
+   }
+
+
+
+
+
+
+}
+
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+
+}
 
 
 
