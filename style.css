@@ -218,7 +218,8 @@ video{
    
     .video11{
         z-index: -10;
-        display: none;
+        display: block;
+        background: none;
     }
     nav{
         display: none;
@@ -265,8 +266,9 @@ video{
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
 @media only screen and (min-width: 600px) {
        .video11{
-        opacity: 0;
-        display: none;
+        z-index: -10;
+        display: block;
+        background: none;
        }
        nav{
         display: none;
@@ -321,6 +323,11 @@ video{
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media only screen and (min-width: 768px) {
+   .video11{
+        z-index: -10;
+        display: block;
+        background: none;
+       }
 
 }
 
